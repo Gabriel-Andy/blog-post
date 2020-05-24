@@ -1,0 +1,361 @@
+
+/*my code*/
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+p.caption {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+p {
+  font-family: catamaran;
+  font-size: 20px;
+  line-height: 25px;
+}
+header {
+  position: relative;
+  width: 100vw;
+}
+
+header .coding-community {
+  position: relative;
+  display: table;
+  height: 100px;
+  width: 100vw;
+  font-family: catamaran;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+}
+nav {
+  width: 200px;
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 100px);
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #fff;
+  font-family: catamaran;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+div h1 {
+  font-family: catamaran;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  margin-top: 15px;
+}
+p.image {
+  display: block;
+  width: 300px;
+  margin: 20px auto 0px;
+}
+p.image img {
+  width: 100%;
+  text-align: left;
+}
+.coding-community p {
+  display: table-cell;
+  vertical-align: middle;
+}
+header {
+  width: 100%;
+  height: 400px;
+}
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+div.img {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+div div img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.author-written {
+  align-self: center;
+  margin-left: 25px;
+}
+.author-name {
+  display: flex;
+  flex-direction: column;
+  font-family: catamaran;
+  font-size: 20px;
+  color: #111;
+}
+.author-name .co-founder {
+  font-style: italic;
+}
+.author-name .name {
+  font-weight: bold;
+}
+div.author-action {
+  display: flex;
+  flex-direction: column;
+  margin: 0 12px 15px;
+}
+div .author-background {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: catamaran;
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 15px;
+}
+div .author-background .developer {
+  padding-right: 5px;
+  border-right: 1px ridge black;
+}
+div .author-background .written {
+  padding-left: 5px;
+  border-left: 1px ridge black;
+}
+div .author-background .coding {
+  padding-right: 5px;
+  border-right: 1px ridge black;
+}
+div .author-background .website {
+  padding-left: 5px;
+  border-left: 1px ridge black;
+}
+div .author-background .youtube {
+  padding-right: 5px;
+  border-right: 1px ridge black;
+}
+div .author-background .blogger {
+  padding-left: 5px;
+  border-left: 1px ridge black;
+}
+
+div .author-follower p a {
+  font-size: 12px;
+  border: 1px solid green;
+  padding: 2px;
+  color: green;
+}
+div .author-follower1 p a {
+  display: none;
+  font-size: 20px;
+  border: 1px solid green;
+  padding: 5px;
+  color: green;
+}
+
+p q {
+  display: block;
+  margin: 50px 15px;
+  text-align: center;
+  font-style: italic;
+  color: green;
+}
+div.author-citation p {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 5px;
+}
+@media only screen and (min-width: 1000px) {
+  header {
+    width: 100%;
+  }
+  header .coding-community {
+    height: 100px;
+  }
+  .author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+  }
+  .following {
+    margin-right: 10%;
+  }
+  div.img {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  div div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  div .author-follower1 p a {
+    display: block;
+    float: right;
+
+    padding: 10px;
+    border: 1px solid green;
+  }
+  div .author-follower p a {
+    display: none;
+  }
+  .wrapper1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  div.author {
+    flex-grow: 1;
+    margin-left: 10%;
+  }
+  div.following {
+    margin-left: 5%;
+  }
+  .author-written {
+    align-self: center;
+  }
+  .author-background {
+    margin-left: 10%;
+  }
+}
+/*section*/
+section {
+  width: calc(100% - 40px);
+  margin: 15px 20px;
+}
+h1.decision {
+  font-family: Cormorant Garamond;
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+  color: #111;
+  line-height: 40px;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+h2 {
+  font-family: catamaran;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  line-height: 25px;
+  margin: 20px auto;
+  text-align: center;
+}
+p span {
+  color: green;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #111;
+  color: #fff;
+}
+div.enter-email {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+div.enter-email label {
+  align-self: center;
+  font-size: 15px;
+  color: green;
+  padding-right: 10px;
+}
+div.enter-email input#email {
+  display: block;
+  font-family: catamaran;
+  width: 200px;
+  height: 25px;
+  color: #111;
+  padding-left: 10px;
+}
+
+div.enter-email input#submit {
+  color: green;
+}
+@media only screen and (min-width: 1000px) {
+  section {
+    width: 75%;
+    margin: 0 auto;
+  }
+  p.image {
+    display: block;
+    width: 500px;
+    margin: 20px auto 0px;
+  }
+  p.image img {
+    width: 100%;
+    text-align: center;
+  }
+}
+/*footer*/
+footer .logo-icon {
+  display: flex;
+  flex-flow: row;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  font-size: 20px;
+}
+ul.sm-logo {
+  flex: 1 0 auto;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+ul.sm-icon {
+  flex: 1 0 auto;
+  margin-right: 100px;
+  margin-top: 5px;
+}
+.sm-logo li {
+  padding-bottom: 10px;
+}
+.sm-icon li {
+  padding-bottom: 10px;
+}
+.owner {
+  text-align: center;
+}
+.owner p {
+  display: block;
+  font-size: 10px;
+}
+@media only screen and (min-width: 1000px) {
+  footer {
+    width: 100%;
+  }
+  footer .logo-icon {
+    font-size: 19px;
+    margin: 0 auto;
+  }
+  ul.sm-logo {
+    flex: 25 0 auto;
+
+    margin-top: 5px;
+  }
+  ul.sm-icon {
+    flex: 1 0 auto;
+
+    margin-top: 5px;
+  }
+}
