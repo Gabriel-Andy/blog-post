@@ -1,4 +1,3 @@
-
 /*my code*/
 * {
   list-style: none;
@@ -7,13 +6,13 @@
 
 p.caption {
   display: block;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   margin-bottom: 10px;
 }
 p {
   font-family: catamaran;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 25px;
 }
 header {
@@ -44,18 +43,23 @@ nav {
 }
 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav ul li a {
   color: #fff;
   font-family: catamaran;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
+}
+.title-blog{
+  font-size:25px;
+  letter-spacing:1px;
+  line-height:30px
 }
 div h1 {
   font-family: catamaran;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   color: #111;
   text-align: center;
@@ -175,6 +179,7 @@ div.author-citation p {
   font-weight: 500;
   margin-top: 5px;
 }
+
 @media only screen and (min-width: 1000px) {
   header {
     width: 100%;
@@ -237,8 +242,10 @@ div.author-citation p {
 }
 /*section*/
 section {
-  width: calc(100% - 40px);
-  margin: 15px 20px;
+  /* width: calc(100% - 100px); */
+  margin: 15px auto;
+  width:90vw;
+  
 }
 h1.decision {
   font-family: Cormorant Garamond;
@@ -294,8 +301,10 @@ div.enter-email input#submit {
 }
 @media only screen and (min-width: 1000px) {
   section {
-    width: 75%;
-    margin: 0 auto;
+    width: 50%;
+  }
+  p {
+    font-size: 17px;
   }
   p.image {
     display: block;
@@ -326,9 +335,11 @@ ul.sm-icon {
   flex: 1 0 auto;
   margin-right: 100px;
   margin-top: 5px;
+  
 }
 .sm-logo li {
   padding-bottom: 10px;
+  cursor:pointer;
 }
 .sm-icon li {
   padding-bottom: 10px;
@@ -339,6 +350,11 @@ ul.sm-icon {
 .owner p {
   display: block;
   font-size: 10px;
+}
+.follow{
+  color:green;
+  font-size:25px;
+
 }
 @media only screen and (min-width: 1000px) {
   footer {
